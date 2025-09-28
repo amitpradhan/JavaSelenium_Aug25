@@ -57,6 +57,18 @@ public class AutomationExercise extends BaseAutomationExcercise{
     }
 
 
+    public static void addItemFromCategory(String category){
+        if(category.equals("MEN")){
+            driver.findElement(By.xpath("//*[@id='accordian']/div[2]/div[1]/h4/a/span")).click();
+            driver.findElement(By.xpath("//a[text()='Tshirts ']")).click();
+            driver.findElement(By.xpath("/html/body/section/div/div[2]/div[2]/div/div[2]/div/div[2]/ul/li/a")).click();
+            driver.findElement(By.xpath("//button[@class='btn btn-default cart']")).click();
+       }
+
+    }
+
+
+
     public static void logout(){
         driver.findElement(By.xpath("//a[text()=' Logout']")).click();
 
@@ -65,9 +77,7 @@ public class AutomationExercise extends BaseAutomationExcercise{
         driver.quit();
     }
 
-//    public static void main(String[] args) {
-//        loginToAutomationExercise(driver);
-//    }
+
 
 
 

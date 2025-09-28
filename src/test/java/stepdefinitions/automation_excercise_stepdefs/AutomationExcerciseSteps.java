@@ -107,4 +107,11 @@ public class AutomationExcerciseSteps {
         closeApp();
     }
 
+
+
+    @When("Add the item to card from category {string}")
+    public void add_the_item_to_card_from_category(String category) {
+        addItemFromCategory(category);
+    }
+
 }
