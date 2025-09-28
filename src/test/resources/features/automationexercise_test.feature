@@ -38,6 +38,13 @@ Feature: AutomationExercise testcases
       | amitkp.2031@gmail.com | password | Your email or password is incorrect! |
 
 
+  Scenario: AddToCart function test for specific category
+    Given I am logged into application
+    When Add the item to card from category "MEN"
+    And Then the item should be added successfully to the cart
+    Then I should be logged out of the application
+    And I close the application
+
 
 
 
