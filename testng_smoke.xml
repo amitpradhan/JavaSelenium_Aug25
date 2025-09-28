@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Jquery Smoke tests">
+    <test verbose="2" preserve-order="true" name=" First set of testcases - Smoke tests for basic login">
+        <classes>
+            <class name="com.automation.day6.testng_start.Testng_all_annotations">
+                <methods>
+                    <include name="testcaseOne"/>
+                    <include name="testcaseTwo"/>
+                </methods>
+            </class>
+
+            <class name="com.automation.day6.testng_start.Testng_test4">
+                <methods>
+                    <include name="testcaseThree"/>
+                    <include name="testcaseFour"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test verbose="2" preserve-order="true" name="Second set of testcases - Smoke tests for basic selenium test">
+        <classes>
+            <class name="com.automation.day6.testng_start.Testng_test2">
+                <methods>
+                    <include name="testcaseFive"/>
+                    <include name="testcaseSix"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

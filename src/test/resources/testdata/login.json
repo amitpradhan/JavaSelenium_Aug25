@@ -1,0 +1,22 @@
+[
+  {
+    "userId": "user1",
+    "password": "password123"
+  },
+  {
+    "userId": "test_user_2",
+    "password": "Password!@#4"
+  },
+  {
+    "userId": "guest_user",
+    "password": "gues-tpass"
+  },
+  {
+    "userId": "admin",
+    "password": "secure_admin_pass"
+  },
+  {
+    "userId": "admin5",
+    "password": "secure_admin_pass5"
+  }
+]

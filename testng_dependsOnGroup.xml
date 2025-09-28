@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Depends On Group - Test">
+    <test verbose="4" preserve-order="true" name="Depends On Group">
+        <classes>
+            <class name="com.automation.day7.DependsOnMethod_testng"/>
+            <class name="com.automation.day7.DependsOnGroups_testng"/>
+        </classes>
+    </test>
+
+
+</suite>
